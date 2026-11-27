@@ -55,6 +55,18 @@
       "found_at": "2026-11-27T11:17:00+08:00"
     },
     {
+      "code": "JTD786",
+      "source": "xiaodou.pro",
+      "source_url": "https://xiaodou.pro/",
+      "found_at": "2026-11-27T09:30:26+00:00"
+    },
+    {
+      "code": "MG78TK",
+      "source": "xiaodou.pro",
+      "source_url": "https://xiaodou.pro/",
+      "found_at": "2026-11-27T09:30:03+00:00"
+    },
+    {
       "code": "Z5U953",
       "source": "Grok API（@peng_xun）",
       "source_url": "https://x.com/peng_xun",
@@ -439,5 +451,5 @@
       "found_at": "2026-11-24T05:37:00+08:00"
     }
   ],
-  "updated_at": "2026-11-27T09:26:00+00:00"
+  "updated_at": "2026-11-27T09:30:57+00:00"
 }
