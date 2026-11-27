@@ -24,6 +24,8 @@
     --blue: #2E7CF6;
     --blue-dark: #1F66D1;
     --blue-soft: #E3EDFD;
+    --blue-card: #F0F6FE;
+    --blue-card-line: #D8E5F9;
     --vermillion: #C8401F;
     --warn-bg: #FDF6EC;
     --warn-line: #F0D9C8;
@@ -72,11 +74,12 @@
   .warn b { color: var(--vermillion); }
 
   /* ---- 码池 ---- */
+  #codes h2 { color: var(--blue-dark); }
   .meta { font-size: 13px; color: var(--muted); margin-bottom: 12px; }
-  .meta button { margin-left: 8px; border: 1px solid var(--line); background: #fff; border-radius: 8px; padding: 4px 12px; font-size: 13px; cursor: pointer; color: var(--ink2); }
-  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; margin-bottom: 12px; box-shadow: 0 1px 3px rgba(34, 29, 21, .05); }
+  .meta button { margin-left: 8px; border: 1px solid var(--blue); background: #fff; border-radius: 8px; padding: 4px 12px; font-size: 13px; cursor: pointer; color: var(--blue); font-weight: 700; }
+  .card { background: var(--blue-card); border: 1px solid var(--blue-card-line); border-radius: var(--radius); padding: 16px; margin-bottom: 12px; box-shadow: 0 1px 3px rgba(34, 29, 21, .05); }
   .card.stale { opacity: .55; }
-  .code { font-size: 32px; font-weight: 800; letter-spacing: 4px; cursor: pointer; color: var(--ink); }
+  .code { font-size: 32px; font-weight: 800; letter-spacing: 4px; cursor: pointer; color: var(--blue); }
   .code small { display: block; font-size: 12px; font-weight: 400; letter-spacing: 0; color: var(--muted); margin-top: 2px; }
   .row { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
   .info { font-size: 13px; color: var(--ink2); line-height: 1.7; margin-top: 10px; }
