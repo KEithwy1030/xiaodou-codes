@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>小豆邀请码聚合 - 最新可用小豆邀请码</title>
-<meta name="description" content="小豆（豆包旗下 AI 个人助理）邀请码聚合：实时更新的公开邀请码，看到就尽快填，一个码只能用一次。">
+<title>小豆指南 | 小豆邀请码聚合 - 最新可用邀请码</title>
+<meta name="description" content="小豆指南：小豆（豆包旗下 AI 个人助理）邀请码聚合，实时更新的公开邀请码；还有用法攻略、指令模板和更新动态，拿到码就知道怎么用。">
 <!-- Google tag (gtag.js) - GA4 小豆邀请码站 G-5GG8T9KELT -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5GG8T9KELT"></script>
 <script>
@@ -14,60 +14,274 @@
   gtag('config', 'G-5GG8T9KELT');
 </script>
 <style>
+  :root {
+    --paper: #FAF7F0;
+    --card: #FFFFFF;
+    --ink: #22301F;
+    --ink2: #5C6656;
+    --muted: #98A08F;
+    --line: #E9E2D3;
+    --green: #2F7D33;
+    --green-dark: #256628;
+    --green-soft: #E9F3E6;
+    --green-accent: #57A773;
+    --amber-bg: #FDF3D7;
+    --amber-ink: #8A6D1B;
+    --amber-line: #F0D9A0;
+    --radius: 16px;
+  }
   * { box-sizing: border-box; }
-  body { margin: 0; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background: #f6f7f9; color: #222; }
-  .wrap { max-width: 720px; margin: 0 auto; padding: 16px; }
-  h1 { font-size: 24px; margin: 8px 0 4px; }
-  .sub { color: #666; font-size: 14px; margin: 0 0 12px; }
-  .warn { background: #fff3cd; border: 1px solid #f0c36d; color: #7a5b00; border-radius: 10px; padding: 12px 14px; font-size: 15px; line-height: 1.6; margin-bottom: 14px; }
-  .warn b { color: #b3261e; }
-  .meta { font-size: 13px; color: #888; margin-bottom: 12px; }
-  .meta button { margin-left: 8px; }
-  .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 14px 16px; margin-bottom: 12px; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background: var(--paper); color: var(--ink); line-height: 1.6; }
+  a { color: var(--green); text-decoration: none; }
+
+  /* ---- 顶部品牌栏 ---- */
+  header { position: sticky; top: 0; z-index: 10; background: rgba(250, 247, 240, .94); backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); }
+  .bar { max-width: 720px; margin: 0 auto; padding: 10px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .brand { display: flex; align-items: center; gap: 8px; font-size: 19px; font-weight: 800; color: var(--ink); letter-spacing: 1px; white-space: nowrap; }
+  .brand small { font-size: 11px; font-weight: 400; color: var(--muted); letter-spacing: 0; }
+  nav { display: flex; gap: 14px; font-size: 14px; }
+  nav a { color: var(--ink2); }
+  nav a:hover { color: var(--green); }
+
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px 40px; }
+  section { scroll-margin-top: 70px; }
+
+  /* ---- Hero ---- */
+  .hero { padding: 28px 0 8px; }
+  .hero h1 { font-size: 27px; line-height: 1.35; margin: 0 0 10px; letter-spacing: .5px; }
+  .hero h1 em { font-style: normal; color: var(--green); }
+  .hero p { font-size: 16px; color: var(--ink2); margin: 0 0 16px; }
+  .pool-big { display: flex; align-items: baseline; gap: 8px; margin: 4px 0 16px; }
+  .pool-big .num { font-size: 46px; font-weight: 800; color: var(--green); line-height: 1; }
+  .pool-big .lbl { font-size: 15px; color: var(--ink2); }
+  .cta-row { display: flex; gap: 10px; flex-wrap: wrap; }
+  .btn { display: inline-block; padding: 12px 22px; border-radius: 12px; font-size: 16px; font-weight: 700; cursor: pointer; border: none; }
+  .btn-primary { background: var(--green); color: #fff; }
+  .btn-primary:hover { background: var(--green-dark); }
+  .btn-ghost { background: #fff; color: var(--green); border: 1.5px solid var(--green); }
+  .hero-meta { font-size: 13px; color: var(--muted); margin-top: 14px; }
+
+  /* ---- 通用区块 ---- */
+  h2 { font-size: 21px; margin: 34px 0 4px; }
+  .sec-sub { font-size: 14px; color: var(--ink2); margin: 0 0 14px; }
+  .warn { background: var(--amber-bg); border: 1px solid var(--amber-line); color: var(--amber-ink); border-radius: var(--radius); padding: 12px 14px; font-size: 15px; line-height: 1.6; margin: 16px 0; }
+  .warn b { color: #9c2b1e; }
+
+  /* ---- 码池 ---- */
+  .meta { font-size: 13px; color: var(--muted); margin-bottom: 12px; }
+  .meta button { margin-left: 8px; border: 1px solid var(--line); background: #fff; border-radius: 8px; padding: 4px 12px; font-size: 13px; cursor: pointer; color: var(--ink2); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; margin-bottom: 12px; box-shadow: 0 1px 3px rgba(34, 48, 31, .05); }
   .card.stale { opacity: .55; }
-  .code { font-size: 30px; font-weight: 800; letter-spacing: 4px; cursor: pointer; }
-  .code small { display: block; font-size: 12px; font-weight: 400; letter-spacing: 0; color: #888; margin-top: 2px; }
+  .code { font-size: 32px; font-weight: 800; letter-spacing: 4px; cursor: pointer; color: var(--ink); }
+  .code small { display: block; font-size: 12px; font-weight: 400; letter-spacing: 0; color: var(--muted); margin-top: 2px; }
   .row { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
-  .info { font-size: 13px; color: #666; line-height: 1.7; margin-top: 8px; }
-  .info a { color: #1a73e8; word-break: break-all; }
-  .tag { display: inline-block; font-size: 12px; background: #eef2ff; color: #3730a3; border-radius: 6px; padding: 2px 8px; margin-left: 6px; }
-  .tag.stale-tag { background: #f3f4f6; color: #9ca3af; }
-  .votes { margin-top: 10px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
-  .votes button { border: 1px solid #d1d5db; background: #fff; border-radius: 8px; padding: 6px 12px; font-size: 14px; cursor: pointer; }
+  .info { font-size: 13px; color: var(--ink2); line-height: 1.7; margin-top: 10px; }
+  .info a { word-break: break-all; }
+  .tag { display: inline-block; font-size: 12px; background: var(--green-soft); color: var(--green-dark); border-radius: 999px; padding: 3px 10px; margin-left: 6px; white-space: nowrap; font-weight: 700; }
+  .tag.stale-tag { background: #F1EFE9; color: var(--muted); }
+  .tag.soon { background: #F1EFE9; color: var(--ink2); }
+  .votes { margin-top: 12px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .votes button { border: 1px solid #D8D2C2; background: #fff; border-radius: 10px; padding: 8px 14px; font-size: 14px; cursor: pointer; }
   .votes button:disabled { opacity: .5; cursor: default; }
-  .votes .count { font-size: 13px; color: #666; }
-  .share { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 14px 16px; margin: 18px 0; }
-  .share h2 { font-size: 17px; margin: 0 0 8px; }
-  .share p { font-size: 13px; color: #666; margin: 0 0 10px; line-height: 1.6; }
-  .share input { width: 200px; max-width: 60%; padding: 9px 10px; font-size: 16px; letter-spacing: 2px; border: 1px solid #d1d5db; border-radius: 8px; text-transform: uppercase; }
-  .share button { padding: 9px 16px; font-size: 15px; border: none; border-radius: 8px; background: #111; color: #fff; cursor: pointer; margin-left: 8px; }
-  .share .msg { font-size: 13px; margin-top: 8px; min-height: 18px; }
-  .empty { text-align: center; color: #888; padding: 32px 0; font-size: 15px; line-height: 1.8; }
-  footer { font-size: 12px; color: #999; text-align: center; padding: 20px 0 30px; line-height: 1.8; }
-  .loading { color: #888; text-align: center; padding: 30px 0; }
+  .votes .count { font-size: 13px; color: var(--ink2); }
+  .empty { text-align: center; color: var(--ink2); padding: 32px 0; font-size: 15px; line-height: 1.8; }
+  .loading { color: var(--muted); text-align: center; padding: 30px 0; }
+
+  /* ---- 攻略卡片 ---- */
+  .guide-list { display: flex; flex-direction: column; gap: 10px; }
+  .guide-card { display: flex; gap: 12px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; align-items: flex-start; box-shadow: 0 1px 3px rgba(34, 48, 31, .05); }
+  a.guide-card:hover { border-color: var(--green-accent); }
+  .guide-date { flex: none; width: 52px; text-align: center; background: var(--green-soft); color: var(--green-dark); border-radius: 10px; padding: 6px 0; font-size: 12px; font-weight: 700; line-height: 1.4; }
+  .guide-date b { display: block; font-size: 17px; }
+  .guide-body { flex: 1; min-width: 0; }
+  .guide-body h3 { font-size: 16px; margin: 0 0 2px; color: var(--ink); line-height: 1.45; }
+  .guide-body p { font-size: 13px; color: var(--ink2); margin: 0; line-height: 1.6; }
+
+  /* ---- 模板卡片 ---- */
+  .tpl-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  @media (max-width: 520px) { .tpl-grid { grid-template-columns: 1fr; } }
+  .tpl-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; cursor: pointer; box-shadow: 0 1px 3px rgba(34, 48, 31, .05); }
+  .tpl-card:hover { border-color: var(--green-accent); }
+  .tpl-card .tpl-text { font-size: 15px; line-height: 1.6; margin: 0 0 6px; }
+  .tpl-card .tpl-meta { font-size: 12px; color: var(--muted); }
+  .tpl-card .tpl-meta .copy-hint { color: var(--green); font-weight: 700; }
+
+  /* ---- 更新时间线 ---- */
+  .timeline { border-left: 2px solid var(--green-soft); margin: 0 0 0 6px; padding-left: 18px; display: flex; flex-direction: column; gap: 14px; }
+  .tl-item { position: relative; font-size: 14px; line-height: 1.65; color: var(--ink2); }
+  .tl-item::before { content: ""; position: absolute; left: -24px; top: 6px; width: 10px; height: 10px; border-radius: 50%; background: var(--green); border: 2px solid var(--paper); }
+  .tl-item b { color: var(--ink); }
+
+  /* ---- 分享 ---- */
+  .share { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; margin: 18px 0; box-shadow: 0 1px 3px rgba(34, 48, 31, .05); }
+  .share h2 { margin-top: 0; }
+  .share p { font-size: 14px; color: var(--ink2); margin: 0 0 12px; line-height: 1.7; }
+  .share input { width: 200px; max-width: 60%; padding: 11px 12px; font-size: 17px; letter-spacing: 2px; border: 1.5px solid #D8D2C2; border-radius: 10px; text-transform: uppercase; background: var(--paper); }
+  .share input:focus { outline: none; border-color: var(--green); }
+  .share button { padding: 11px 18px; font-size: 15px; font-weight: 700; border: none; border-radius: 10px; background: var(--green); color: #fff; cursor: pointer; margin-left: 8px; }
+  .share button:hover { background: var(--green-dark); }
+  .share .msg { font-size: 13px; margin-top: 10px; min-height: 18px; }
+
+  footer { font-size: 12px; color: var(--muted); text-align: center; padding: 24px 0 30px; line-height: 1.9; border-top: 1px solid var(--line); margin-top: 20px; }
 </style>
 </head>
 <body>
+
+<header>
+  <div class="bar">
+    <a class="brand" href="/">
+      <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <path d="M17 3C11 3 6.5 8 6.5 14.5c0 3.5 1.6 6.3 3.7 8.3 1.4 1.3 3.3 2.2 5.3 2.2h1C22 25 26 20.3 26 14.5 26 8 22 3 17 3Z" fill="#2F7D33"/>
+        <path d="M16 12.5c.6-3.8 2.8-6.4 6-7 .3 3.8-1.4 7-6 7Z" fill="#8CC084"/>
+      </svg>
+      小豆指南 <small>小豆使用指南</small>
+    </a>
+    <nav>
+      <a href="#codes">邀请码</a>
+      <a href="#guides">攻略</a>
+      <a href="#templates">模板</a>
+      <a href="#updates">更新</a>
+    </nav>
+  </div>
+</header>
+
 <div class="wrap">
-  <h1>小豆邀请码聚合</h1>
-  <p class="sub">小豆是豆包旗下的 AI 个人助理 App，正在邀请制公测。这里汇总全网公开的邀请码。</p>
 
-  <div class="warn">⚠️ <b>一个码只能用一次，看到就尽快填。</b>码一般 48 小时过期，公开贴出来的码几分钟内就会被抢光。先下载小豆 App（应用商店搜“小豆”），再填码。</div>
-
-  <div class="meta"><span id="stat">加载中…</span><button id="refreshBtn" onclick="loadCodes()">刷新</button><span style="margin-left:8px">每 30 秒自动刷新</span></div>
-
-  <div id="list"><div class="loading">正在拉取最新码…</div></div>
-
-  <div class="share">
-    <h2>分享我的邀请码</h2>
-    <p>你激活小豆后会得到自己的邀请码，多余的可以贴进来帮下一个人。提交后会直接进码池，别人投“失效”多了会自动灰掉。</p>
-    <input id="shareInput" maxlength="6" placeholder="6 位邀请码" autocomplete="off">
-    <button onclick="submitCode()">提交进码池</button>
-    <div class="msg" id="shareMsg"></div>
+  <!-- Hero -->
+  <div class="hero">
+    <h1>小豆是豆包旗下的 AI 个人助理，<em>交代一句，它持续帮你跟进。</em></h1>
+    <p>正在邀请制公测，进门要邀请码。这里汇总全网公开的码，拿到码，这里还有用法、模板和更新，帮你把小豆用起来。</p>
+    <div class="pool-big"><span class="num" id="heroCount">–</span><span class="lbl">个邀请码在池子里<br>一个码只能用一次，48 小时过期</span></div>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="#codes">领一个码 ↓</a>
+      <a class="btn btn-ghost" href="/guides/how-to-enter.html">先看：码怎么输入 →</a>
+    </div>
+    <div class="hero-meta">邀请制公测中 · 码 48 小时过期 · 本站每 30 秒自动刷新</div>
   </div>
 
+  <!-- 码池 -->
+  <section id="codes">
+    <h2>最新邀请码</h2>
+    <p class="sec-sub">点一下码就能复制，去小豆 App 里填。公开的码几分钟内就会被领走，看到就尽快填。</p>
+    <div class="warn">⚠️ <b>一个码只能用一次，看到就尽快填。</b>先下载小豆 App（应用商店搜“小豆”），再填码。豆包 App 里填不了码。</div>
+    <div class="meta"><span id="stat">加载中…</span><button id="refreshBtn" onclick="loadCodes()">刷新</button><span style="margin-left:8px">每 30 秒自动刷新</span></div>
+    <div id="list"><div class="loading">正在拉取最新码…</div></div>
+  </section>
+
+  <!-- 攻略 -->
+  <section id="guides">
+    <h2>攻略</h2>
+    <p class="sec-sub">先看懂，再动手。每天一篇，写给刚拿到小豆的人。</p>
+    <div class="guide-list">
+      <a class="guide-card" href="/guides/how-to-enter.html">
+        <div class="guide-date"><b>28</b>11月</div>
+        <div class="guide-body">
+          <h3>小豆邀请码怎么输入？登录后 5 步 <span class="tag">已发布</span></h3>
+          <p>拿到码之后，在小豆 App 里点哪、填哪，写死每一步。豆包里填不了，没登录时没有输入框。</p>
+        </div>
+      </a>
+      <div class="guide-card">
+        <div class="guide-date"><b>29</b>11月</div>
+        <div class="guide-body">
+          <h3>小豆和豆包到底差在哪？ <span class="tag soon">即将更新</span></h3>
+          <p>一张表加三个例子说清：主动和被动、记忆互通、会员通用。</p>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="guide-date"><b>30</b>11月</div>
+        <div class="guide-body">
+          <h3>小豆能帮你做的 20 件事 <span class="tag soon">即将更新</span></h3>
+          <p>盯降价、代打电话、催团购券……每件一句话说清怎么交代。</p>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="guide-date"><b>1</b>12月</div>
+        <div class="guide-body">
+          <h3>小豆 500 元/月值不值？ <span class="tag soon">即将更新</span></h3>
+          <p>四档定价表加适合人群。普通人 68 元档到顶，别盲上 500 元。</p>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="guide-date"><b>2</b>12月</div>
+        <div class="guide-body">
+          <h3>实测小豆：订餐厅、盯降价、叫车 <span class="tag soon">即将更新</span></h3>
+          <p>3 处翻车 2 处惊喜，诚实写，不吹。</p>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="guide-date"><b>3</b>12月</div>
+        <div class="guide-body">
+          <h3>小豆比你还了解你：它从豆包记忆里看到了什么 <span class="tag soon">即将更新</span></h3>
+          <p>隐私角度：没聊过就知道职业和行程，“关于你”页面可以改记忆。</p>
+        </div>
+      </div>
+      <div class="guide-card">
+        <div class="guide-date"><b>4</b>12月</div>
+        <div class="guide-body">
+          <h3>小豆一周：码还剩多少、新功能、放开消息汇总 <span class="tag soon">即将更新</span></h3>
+          <p>每周固定栏目：官方动态、码池数据、下周看点。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 模板库预览 -->
+  <section id="templates">
+    <h2>交代小豆的 100 件事</h2>
+    <p class="sec-sub">小豆最难的不是不会用，是想不到让它干什么。复制就能用，先从这 6 条开始。</p>
+    <div class="tpl-grid">
+      <div class="tpl-card" onclick="copyTpl(this)">
+        <p class="tpl-text">“每天早上 9 点，把昨天的行业动态整理成 5 条简报发我。”</p>
+        <div class="tpl-meta">行业简报 · <span class="copy-hint">点一下复制</span></div>
+      </div>
+      <div class="tpl-card" onclick="copyTpl(this)">
+        <p class="tpl-text">“盯着这款 AirPods Pro，降到 1500 以下就通知我。”</p>
+        <div class="tpl-meta">盯降价 · <span class="copy-hint">点一下复制</span></div>
+      </div>
+      <div class="tpl-card" onclick="copyTpl(this)">
+        <p class="tpl-text">“帮我打电话问这家餐厅今晚 7 点有没有位子。”</p>
+        <div class="tpl-meta">代打电话 · <span class="copy-hint">点一下复制</span></div>
+      </div>
+      <div class="tpl-card" onclick="copyTpl(this)">
+        <p class="tpl-text">“猫粮快吃完了，记得提醒我补货。”</p>
+        <div class="tpl-meta">补货提醒 · <span class="copy-hint">点一下复制</span></div>
+      </div>
+      <div class="tpl-card" onclick="copyTpl(this)">
+        <p class="tpl-text">“每周五下午 5 点，把这周的待办整理成一份清单。”</p>
+        <div class="tpl-meta">周报整理 · <span class="copy-hint">点一下复制</span></div>
+      </div>
+      <div class="tpl-card" onclick="copyTpl(this)">
+        <p class="tpl-text">“帮我追一下 GTA6 的最新消息，有新预告就告诉我。”</p>
+        <div class="tpl-meta">追踪消息 · <span class="copy-hint">点一下复制</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 更新动态 -->
+  <section id="updates">
+    <h2>更新动态</h2>
+    <p class="sec-sub">公测期变化最快，这里每天记一条。</p>
+    <div class="timeline">
+      <div class="tl-item"><b>11 月 27 日</b> — 域名 xiaodouzhinan.com 接通，站正式有了自己的名字；流量统计已装好，开始看数。</div>
+      <div class="tl-item"><b>11 月 24 日</b> — 小豆开启邀请制公测，豆包官方微博发帖，进门要邀请码。</div>
+      <div class="tl-item"><b>11 月 23 日</b> — 小豆 iOS 版上架应用商店。</div>
+    </div>
+  </section>
+
+  <!-- 分享我的码 -->
+  <section id="share">
+    <div class="share">
+      <h2>分享我的邀请码</h2>
+      <p>你激活小豆后会得到自己的邀请码，多余的可以贴进来帮下一个人。提交后会直接进码池，别人投“失效”多了会自动灰掉。</p>
+      <input id="shareInput" maxlength="6" placeholder="6 位邀请码" autocomplete="off">
+      <button onclick="submitCode()">提交进码池</button>
+      <div class="msg" id="shareMsg"></div>
+    </div>
+  </section>
+
   <footer>
-    独立社区项目，与字节跳动、豆包无隶属关系。<br>
+    小豆指南 — 独立社区项目，与字节跳动、豆包无隶属关系。<br>
     码全部来自公开渠道（论坛、社交平台、聚合站），本站无法保证每个码都可用——能用就尽快填，失效了请点“失效”帮后面的人排雷。<br>
     邀请码买卖与本站无关，买码请三思。
   </footer>
@@ -96,6 +310,7 @@ async function loadCodes() {
     const codes = d.codes || [];
     document.getElementById('stat').textContent =
       '码池 ' + codes.length + ' 个 · 更新于 ' + (d.updated_at ? new Date(d.updated_at).toLocaleString('zh-CN', {hour12: false}) : '—');
+    document.getElementById('heroCount').textContent = codes.length;
     if (!codes.length) {
       list.innerHTML = '<div class="empty">码池现在是空的。<br>新码一出现就会自动上架，稍后再来刷，或者把你的多余码分享进来。</div>';
       return;
@@ -123,6 +338,14 @@ function copyCode(code, el) {
   const done = () => { el.querySelector('small').textContent = '已复制，去小豆 App 里填'; setTimeout(() => { el.querySelector('small').textContent = '点一下复制'; }, 2000); };
   if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(code).then(done).catch(() => {}); }
   else { const t = document.createElement('textarea'); t.value = code; document.body.appendChild(t); t.select(); try { document.execCommand('copy'); done(); } catch (e) {} document.body.removeChild(t); }
+}
+
+function copyTpl(el) {
+  const text = el.querySelector('.tpl-text').textContent.replace(/[“”]/g, '').trim();
+  const hint = el.querySelector('.copy-hint');
+  const done = () => { hint.textContent = '已复制，去小豆里交代它'; setTimeout(() => { hint.textContent = '点一下复制'; }, 2000); };
+  if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text).then(done).catch(() => {}); }
+  else { const t = document.createElement('textarea'); t.value = text; document.body.appendChild(t); t.select(); try { document.execCommand('copy'); done(); } catch (e) {} document.body.removeChild(t); }
 }
 
 async function vote(code, v, btn) {
