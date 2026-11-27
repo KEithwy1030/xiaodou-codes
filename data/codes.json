@@ -1,6 +1,12 @@
 {
   "codes": [
     {
+      "code": "FZZ517",
+      "source": "good1uck（X @BottleneckHQ)",
+      "source_url": "https://x.com/BottleneckHQ/status/2126296281824022705",
+      "found_at": "2026-11-27T20:45:12+08:00"
+    },
+    {
       "code": "A5W6MT",
       "source": "good1uck（X @deanshen7)",
       "source_url": "https://x.com/deanshen7/status/2126261005621788690",
@@ -29,6 +35,24 @@
       "source": "good1uck（X @HzeroixSco26)",
       "source_url": "https://x.com/HzeroixSco26/status/2126189541375840360",
       "found_at": "2026-11-27T13:41:04+08:00"
+    },
+    {
+      "code": "Y9QK8M",
+      "source": "xiaodou.pro",
+      "source_url": "https://xiaodou.pro/",
+      "found_at": "2026-11-27T12:54:36+00:00"
+    },
+    {
+      "code": "8II1IM",
+      "source": "xiaodou.pro",
+      "source_url": "https://xiaodou.pro/",
+      "found_at": "2026-11-27T12:54:22+00:00"
+    },
+    {
+      "code": "S3D6VN",
+      "source": "xiaodou.pro",
+      "source_url": "https://xiaodou.pro/",
+      "found_at": "2026-11-27T12:53:36+00:00"
     },
     {
       "code": "YE98AG",
@@ -481,5 +505,5 @@
       "found_at": "2026-11-24T05:37:00+08:00"
     }
   ],
-  "updated_at": "2026-11-27T11:30:57+00:00"
+  "updated_at": "2026-11-27T12:56:01+00:00"
 }
