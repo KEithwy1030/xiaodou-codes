@@ -1,6 +1,12 @@
 {
   "codes": [
     {
+      "code": "SN5SQ8",
+      "source": "xiaodou.pro",
+      "source_url": "https://xiaodou.pro/",
+      "found_at": "2026-11-27T03:53:08+00:00"
+    },
+    {
       "code": "FE324E",
       "source": "xiaodou.pro",
       "source_url": "https://xiaodou.pro/",
@@ -307,5 +313,5 @@
       "found_at": "2026-11-24T05:37:00+08:00"
     }
   ],
-  "updated_at": "2026-11-27T03:25:59+00:00"
+  "updated_at": "2026-11-27T03:56:01+00:00"
 }
