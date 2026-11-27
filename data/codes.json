@@ -1,6 +1,18 @@
 {
   "codes": [
     {
+      "code": "EYYNKV",
+      "source": "good1uck（X @ShuaiMilo)",
+      "source_url": "https://x.com/ShuaiMilo/status/2126451936337727966",
+      "found_at": "2026-11-28T07:03:43+08:00"
+    },
+    {
+      "code": "AMAZON",
+      "source": "good1uck（X @ShuaiMilo)",
+      "source_url": "https://x.com/ShuaiMilo/status/2126451936337727966",
+      "found_at": "2026-11-28T07:03:43+08:00"
+    },
+    {
       "code": "MBD6D7",
       "source": "good1uck（X @Mz11001)",
       "source_url": "https://x.com/Mz11001/status/2126416202729988445",
@@ -535,5 +547,5 @@
       "found_at": "2026-11-24T05:37:00+08:00"
     }
   ],
-  "updated_at": "2026-11-27T20:51:03+00:00"
+  "updated_at": "2026-11-27T23:16:01+00:00"
 }
