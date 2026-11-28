@@ -1,6 +1,12 @@
 {
   "codes": [
     {
+      "code": "3B2UDQ",
+      "source": "good1uck（X @BrightThomasZ)",
+      "source_url": "https://x.com/BrightThomasZ/status/2126655420102221834",
+      "found_at": "2026-11-28T20:32:18+08:00"
+    },
+    {
       "code": "LK4AC7",
       "source": "good1uck（X @nblndg2)",
       "source_url": "https://x.com/nblndg2/status/2126624663493386633",
@@ -745,5 +751,5 @@
       "found_at": "2026-11-24T05:37:00+08:00"
     }
   ],
-  "updated_at": "2026-11-28T11:35:56+00:00"
+  "updated_at": "2026-11-28T20:45:58+08:00"
 }
