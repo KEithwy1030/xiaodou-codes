@@ -1,6 +1,12 @@
 {
   "codes": [
     {
+      "code": "HKB3W6",
+      "source": "good1uck（X @gsti)",
+      "source_url": "https://x.com/gsti/status/2126530764506562714",
+      "found_at": "2026-11-28T12:16:57+08:00"
+    },
+    {
       "code": "RPQDC3",
       "source": "good1uck（X @tttkkkxx)",
       "source_url": "https://x.com/tttkkkxx/status/2126529340762730846",
@@ -59,6 +65,12 @@
       "source": "good1uck（X @Mz11001)",
       "source_url": "https://x.com/Mz11001/status/2126416202729988445",
       "found_at": "2026-11-28T04:41:44+08:00"
+    },
+    {
+      "code": "S27A31",
+      "source": "xiaodou.pro",
+      "source_url": "https://xiaodou.pro/",
+      "found_at": "2026-11-28T04:27:45+00:00"
     },
     {
       "code": "XIA0SB",
@@ -601,5 +613,5 @@
       "found_at": "2026-11-24T05:37:00+08:00"
     }
   ],
-  "updated_at": "2026-11-28T04:21:09+00:00"
+  "updated_at": "2026-11-28T04:31:01+00:00"
 }
