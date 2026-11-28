@@ -49,6 +49,12 @@
       "found_at": "2026-11-28T11:49:30+08:00"
     },
     {
+      "code": "XEBVX6",
+      "source": "xiaodou.pro",
+      "source_url": "https://xiaodou.pro/",
+      "found_at": "2026-11-28T11:35:23+00:00"
+    },
+    {
       "code": "SUX233",
       "source": "xiaodou.pro",
       "source_url": "https://xiaodou.pro/",
@@ -739,5 +745,5 @@
       "found_at": "2026-11-24T05:37:00+08:00"
     }
   ],
-  "updated_at": "2026-11-28T11:30:57+00:00"
+  "updated_at": "2026-11-28T11:35:56+00:00"
 }
