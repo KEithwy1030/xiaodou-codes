@@ -49,6 +49,12 @@
       "found_at": "2026-11-28T11:24:05+08:00"
     },
     {
+      "code": "KBR9AK",
+      "source": "xiaodou.pro",
+      "source_url": "https://xiaodou.pro/",
+      "found_at": "2026-11-28T10:33:26+00:00"
+    },
+    {
       "code": "63H7B8",
       "source": "xiaodou.pro",
       "source_url": "https://xiaodou.pro/",
@@ -721,5 +727,5 @@
       "found_at": "2026-11-24T05:37:00+08:00"
     }
   ],
-  "updated_at": "2026-11-28T10:31:10+00:00"
+  "updated_at": "2026-11-28T10:35:59+00:00"
 }
