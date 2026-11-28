@@ -1,6 +1,18 @@
 {
   "codes": [
     {
+      "code": "NHZCXS",
+      "source": "good1uck（X @Nanjing_O)",
+      "source_url": "https://x.com/Nanjing_O/status/2126711349937934825",
+      "found_at": "2026-11-29T00:14:32+08:00"
+    },
+    {
+      "code": "799CMC",
+      "source": "good1uck（X @yydsstg)",
+      "source_url": "https://x.com/yydsstg/status/2126711332246557067",
+      "found_at": "2026-11-29T00:14:28+08:00"
+    },
+    {
       "code": "PTKCNP",
       "source": "good1uck（X @wuyu970329)",
       "source_url": "https://x.com/wuyu970329/status/2126709237896429718",
@@ -805,5 +817,5 @@
       "found_at": "2026-11-24T05:37:00+08:00"
     }
   ],
-  "updated_at": "2026-11-29T00:16:04+08:00"
+  "updated_at": "2026-11-29T00:26:06+08:00"
 }
