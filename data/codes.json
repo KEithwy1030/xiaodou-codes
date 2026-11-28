@@ -1,6 +1,12 @@
 {
   "codes": [
     {
+      "code": "X8MJ66",
+      "source": "good1uck（X @AskForMilk)",
+      "source_url": "https://x.com/AskForMilk/status/2126602617266872514",
+      "found_at": "2026-11-28T17:02:28+08:00"
+    },
+    {
       "code": "PK9SQG",
       "source": "good1uck（X @E20485788)",
       "source_url": "https://x.com/E20485788/status/2126544397701673238",
@@ -697,5 +703,5 @@
       "found_at": "2026-11-24T05:37:00+08:00"
     }
   ],
-  "updated_at": "2026-11-28T08:31:02+00:00"
+  "updated_at": "2026-11-28T09:41:05+00:00"
 }
