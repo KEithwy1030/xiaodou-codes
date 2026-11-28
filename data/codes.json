@@ -1,6 +1,12 @@
 {
   "codes": [
     {
+      "code": "BATTLE",
+      "source": "good1uck（X @LEO_CHEN_X)",
+      "source_url": "https://x.com/LEO_CHEN_X/status/2126517457737138295",
+      "found_at": "2026-11-28T11:24:05+08:00"
+    },
+    {
       "code": "3T0EBP",
       "source": "good1uck（X @BottleneckHQ)",
       "source_url": "https://x.com/BottleneckHQ/status/2126497469127368752",
@@ -583,5 +589,5 @@
       "found_at": "2026-11-24T05:37:00+08:00"
     }
   ],
-  "updated_at": "2026-11-28T02:15:59+00:00"
+  "updated_at": "2026-11-28T03:36:01+00:00"
 }
